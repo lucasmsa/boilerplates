@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5440,
+  "username": "postgres",
+  "password": "password",
+  "database": "postgres",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/modules/**/entity/*.{ts,js}"],
+  "migrations": ["src/modules/**/migration/**/*.ts"]
+}
